@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+}
+
+.calc{
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30%;
+}
+#output1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    font-size: 3rem;
+    font-weight: 700;
+    content: "";
+}
+
+.output{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+.numbers{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    grid-template-rows: 4fr 4fr 4fr 4fr 4fr;
+
+}
